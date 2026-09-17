@@ -25,9 +25,10 @@ print(f"Nombre completo: {apellido}, {nombre}")
 print(f"Correo electrónico: {email}")
 print(f"Rango etario: {rango_etario}")
 
-##E-MAIL robusto
+
 email = input("Ingrese su correo electrónico: ").strip().replace(" ", "")
 
+##E-MAIL robusto
 # Separamos el correo en usuario y dominio usando la '@'
 # if email.count("@") == 1:
 #   usuario, dominio = email.split("@")
